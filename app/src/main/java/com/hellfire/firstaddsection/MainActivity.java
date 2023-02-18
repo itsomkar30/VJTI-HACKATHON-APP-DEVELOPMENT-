@@ -57,13 +57,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         Button button5 = findViewById(R.id.button4);
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v4) {
-                Intent intent4 = new Intent(MainActivity.this, ViralInfection.class);
+                Intent intent4 = new Intent(MainActivity.this, FoodPoisoning1.class);
                 startActivity(intent4);
             }
         });
+
     }
 }
